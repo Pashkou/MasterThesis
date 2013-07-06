@@ -1,7 +1,10 @@
 using System;
 using System.Reflection.Emit;
 using System.Reflection;
-
+/*
+ * This code is copied from the Haibo Luo's weblog - System.Reflection-based ILReader
+ * http://blogs.msdn.com/b/haibo_luo/archive/2006/11/06/system-reflection-based-ilreader.aspx
+ * */
 namespace ClrTest.Reflection {
     public abstract class ILInstruction {
         protected Int32 m_offset;
