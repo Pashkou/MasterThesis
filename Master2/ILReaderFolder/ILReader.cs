@@ -3,7 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
-
+/*
+ * This code is copied from the Haibo Luo's weblog - System.Reflection-based ILReader
+ * http://blogs.msdn.com/b/haibo_luo/archive/2006/11/06/system-reflection-based-ilreader.aspx
+ * */
 namespace ClrTest.Reflection {
     public sealed class ILReader : IEnumerable<ILInstruction>, IEnumerable {
         #region Static members
