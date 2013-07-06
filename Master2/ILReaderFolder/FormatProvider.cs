@@ -4,7 +4,10 @@ using System.Text;
 using System.IO;
 using System.Reflection.Emit;
 using System.Reflection;
-
+/*
+ * This code is copied from the Haibo Luo's weblog - System.Reflection-based ILReader
+ * http://blogs.msdn.com/b/haibo_luo/archive/2006/11/06/system-reflection-based-ilreader.aspx
+ * */
 namespace ClrTest.Reflection {
     public interface IFormatProvider {
         string Int32ToHex(int int32);
