@@ -1,6 +1,9 @@
 using System;
 using System.IO;
-
+/*
+ * This code is copied from the Haibo Luo's weblog - System.Reflection-based ILReader
+ * http://blogs.msdn.com/b/haibo_luo/archive/2006/11/06/system-reflection-based-ilreader.aspx
+ * */
 namespace ClrTest.Reflection {
     public interface IILStringCollector {
         void Process(ILInstruction ilInstruction, string operandString);
